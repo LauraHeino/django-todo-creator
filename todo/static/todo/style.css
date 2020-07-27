@@ -1,0 +1,53 @@
+
+
+
+body {
+    background-color: rgb(225, 225, 225);
+    font-family: 'Open Sans';
+    color: rgb(120, 160, 180);
+    text-align: center;
+    
+}
+
+ul {
+    color: rgb(100, 130, 145);
+}
+
+#loggedIn {
+    font-family: 'Open Sans';
+    font-size: 10pt;
+    color: rgb(30, 90, 120)
+
+}
+.container {
+    color: lightgray;
+    font-family: 'Bebas Neue';
+    font-size: 20pt;
+}
+
+.pageContent{
+    color: rgb(50, 30, 40);;
+    margin: auto;
+    display: inline-block;
+    background: rgb(135, 190, 200);
+    width: 40%;
+    padding: 25px;
+    text-align: left;
+}
+
+#logodisclaimer {
+    color: white;
+    font-size: small;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+.row .col {
+    color: rgb(120, 160, 180);
+}

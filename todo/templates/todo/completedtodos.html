@@ -1,0 +1,26 @@
+{% extends 'todo/base.html' %}
+
+{% block content %}
+
+<h4>Completed</h4>
+
+<ul>
+{% if todos %}
+
+    {% for todo in todos %}
+ 
+        <li>
+             <a href="{% url 'viewtodo' todo.id %}">
+                {% if todo.important %}<b>{% endif %}
+                    {{ todo.title }} <br>
+            </a>
+            Completed: {{ todo.datecompleted }}
+        </li>
+    {% endfor %}
+{% else %}
+        Your completed list is empty.
+{% endif %}
+
+</ul>
+
+{% endblock %}
